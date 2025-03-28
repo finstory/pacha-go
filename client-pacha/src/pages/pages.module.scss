@@ -1,0 +1,11 @@
+@use "@index" as *;
+
+.auth_container {
+    position: relative;
+    @include dim_width();
+    @include flex(flex-start, flex-start, row, 3.2rem);
+    // flex-grow: 1;
+    padding: cr(3.2rem);
+    animation: showing 0.5s ease-in-out;
+
+}

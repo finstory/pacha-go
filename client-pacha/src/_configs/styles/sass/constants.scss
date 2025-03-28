@@ -1,0 +1,141 @@
+:root {
+    --background: oklch(1 0 0);
+    --foreground: oklch(0.145 0 0);
+    --card: oklch(1 0 0);
+    --card-foreground: oklch(0.145 0 0);
+    --popover: oklch(1 0 0);
+    --popover-foreground: oklch(0.145 0 0);
+    --primary: #03bc85;
+    --primary-foreground: oklch(0.985 0 0);
+    --secondary: oklch(0.97 0 0);
+    --secondary-foreground: oklch(0.205 0 0);
+    --muted: oklch(0.97 0 0);
+    --muted-foreground: oklch(0.556 0 0);
+    --accent: oklch(0.97 0 0);
+    --accent-foreground: oklch(0.205 0 0);
+    --destructive: oklch(0.577 0.245 27.325);
+    --destructive-foreground: oklch(0.577 0.245 27.325);
+    --border: oklch(0.922 0 0);
+    --input: oklch(0.922 0 0);
+    --ring: oklch(0.708 0 0);
+    --chart-1: oklch(0.646 0.222 41.116);
+    --chart-2: oklch(0.6 0.118 184.704);
+    --chart-3: oklch(0.398 0.07 227.392);
+    --chart-4: oklch(0.828 0.189 84.429);
+    --chart-5: oklch(0.769 0.188 70.08);
+    --radius: 0.825rem;
+    --sidebar: oklch(0.985 0 0);
+    --sidebar-foreground: oklch(0.145 0 0);
+    --sidebar-primary: oklch(0.205 0 0);
+    --sidebar-primary-foreground: oklch(0.985 0 0);
+    --sidebar-accent: oklch(0.97 0 0);
+    --sidebar-accent-foreground: oklch(0.205 0 0);
+    --sidebar-border: oklch(0.922 0 0);
+    --sidebar-ring: oklch(0.708 0 0);
+
+
+}
+
+.dark {
+    --background: #101010;
+    --foreground: #e5e5e5;
+    --card: oklch(0.145 0 0);
+    --card-foreground: oklch(0.985 0 0);
+    --popover: oklch(0.145 0 0);
+    --popover-foreground: oklch(0.985 0 0);
+    --primary: #0fbf89;
+    --primary: #138157;
+    --primary-foreground: oklch(0.985 0 0);
+    --secondary: oklch(0.269 0 0);
+    --secondary-foreground: oklch(0.985 0 0);
+    --muted: oklch(0.269 0 0);
+    --muted-foreground: oklch(0.708 0 0);
+    --accent: oklch(0.269 0 0);
+    --accent-foreground: oklch(0.985 0 0);
+    --destructive: oklch(0.396 0.141 25.723);
+    --destructive-foreground: oklch(0.637 0.237 25.331);
+    --border: oklch(0.269 0 0);
+    --input: oklch(0.269 0 0);
+    --ring: oklch(0.439 0 0);
+    --chart-1: oklch(0.488 0.243 264.376);
+    --chart-2: oklch(0.696 0.17 162.48);
+    --chart-3: oklch(0.769 0.188 70.08);
+    --chart-4: oklch(0.627 0.265 303.9);
+    --chart-5: oklch(0.645 0.246 16.439);
+    --sidebar: oklch(0.205 0 0);
+    --sidebar-foreground: oklch(0.985 0 0);
+    --sidebar-primary: oklch(0.488 0.243 264.376);
+    --sidebar-primary-foreground: oklch(0.985 0 0);
+    --sidebar-accent: oklch(0.269 0 0);
+    --sidebar-accent-foreground: oklch(0.985 0 0);
+    --sidebar-border: oklch(0.269 0 0);
+    --sidebar-ring: oklch(0.439 0 0);
+}
+
+
+//* SASS VARIABLES:
+
+//% COLOR:
+$color-base-off: #838383;
+$color-base: #E3E8E8;
+$color-base-off-dark: #333333;
+$color-base-dark: #05050A;
+$color-primary-off: #307063;
+$color-primary-super-off: #0a2e2c;
+$color-primary-off: #0e6059;
+$color-primary: #4DC5AC;
+$color-primary-hover: #62efd2;
+$color-secondary-off: #352F91;
+$color-secondary: #5E51FF;
+$color-secondary-hover: #756cf0;
+$color-rejected-off: #a12a44;
+$color-rejected: #e23b51;
+
+//% SEPARATOR:
+$gap-container: 3.2rem;
+
+$padding-card: 1.6rem;
+$padding-x-card: 1.6rem;
+$padding-y-card: 1.6rem;
+
+$padding-container: 1.6rem;
+$padding-x-container: 1.6rem;
+$padding-y-container: 1.6rem;
+
+//% BG:
+$bg-primary-gradient-dark: linear-gradient(124deg, #0E0E0E 0%, #151515 100%);
+
+//% BORDER:
+$border-primary: #323232;
+$border-secondary-off: #484848;
+$border-secondary: #B7C2C3;
+$border-radius-primary: 1.2rem;
+$border-radius-secondary: 2.4rem;
+
+//% FONT:
+$font-family-primary: 'Poppins';
+$font-family-secondary: 'Inter';
+
+//% FONT SIZE:
+$font-size-extra-small: 0.8rem;
+$font-size-small: 1.2rem;
+$font-size-normal: 1.6rem;
+$font-size-medium: 2.2rem;
+$font-size-large: 3.2rem;
+
+//% FONT WEIGHT:
+$font-weight-normal: 300;
+$font-weight-medium: 500;
+$font-weight-large: 500;
+
+//% FONT HEIGHT:
+$font-height-small: 2rem;
+$font-height-normal: 2.8rem;
+$font-height-medium: 3.0rem;
+$font-height-large: 3.2rem;
+
+//% GRADIENT:
+$gradient-black: linear-gradient(124deg, #0E0E0E 0%, #151515 100%);
+$gradient-mixed: linear-gradient(90deg, #4DC5AC, #756cf0);
+$gradient-primary: linear-gradient(90deg, #4DC5AC, #53a7a2);
+$gradient-primary-off: linear-gradient(90deg, #06120f, #0d1b1a);

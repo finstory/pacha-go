@@ -1,0 +1,3 @@
+@function cr($value) {
+    @return calc(#{$value} / 1.6);
+}

@@ -1,0 +1,47 @@
+@use "@index" as *;
+
+.main_container {
+    position: relative;
+    @include dim_width(100%);
+    @include dim_height(100%, auto, calc(100vh - 8rem));
+    @include dim_height(100%, auto, 100vh);
+
+    @include flex(center, center, column);
+    // background-color: $color-primary-hover;
+    // justify-content: flex-start;
+    // padding-top: 4rem;
+    // padding-bottom: 4rem;
+}
+
+.modal_container {
+    z-index: 51;
+    // padding: 0 6rem;
+    position: absolute;
+    @include dim_width(100%, 124rem);
+    @include dim_height();
+    @include flex(center, center, column, 6rem);
+
+    &.modal_active {
+        display: none;
+    }
+}
+
+.modal_blur {
+    @include dim_width();
+    @include dim_height();
+    filter: blur(0.5rem);
+    background-color: #05050a8b;
+
+    &.modal_active {
+        filter: blur(0);
+        background-color: transparent;
+    }
+}
+
+// //haz un media query entre 0 y 1024px
+@media (max-width: 1740px) {
+    .main_container {
+        // @include dim_height(auto, auto, 80rem);
+
+    }
+}
