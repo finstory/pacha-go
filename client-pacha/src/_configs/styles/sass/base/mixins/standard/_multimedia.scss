@@ -1,6 +1,0 @@
-@mixin image($width: 100%, $height: auto, $fit: cover) {
-    display: block;
-    width: $width;
-    height: $height;
-    object-fit: $fit;
-}
